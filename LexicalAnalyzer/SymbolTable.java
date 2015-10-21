@@ -1,8 +1,12 @@
 package lexPackage;
 
+/*
+ * Symbol Table Class
+ * Stores lexemes and their tokens into a table for use with a lexical analyzer.
+ */
 public class SymbolTable {
 
-	private int lexeme;
+	private int lexeme;		//should these be String instead of int?
 	private int token;
 
 	SymbolTable(int lexeme, int token) {
