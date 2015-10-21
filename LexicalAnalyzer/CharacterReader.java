@@ -28,7 +28,7 @@ public class CharacterReader {
 			lexChar = line.charAt(i);
 		}
 
-		return 0;
+		return lexChar;
 
 	}
 
